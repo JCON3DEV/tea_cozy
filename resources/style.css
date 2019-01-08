@@ -11,23 +11,32 @@ body {
   color: seashell;
   opacity: 0.9;
   display: flex;
+
   justify-content: center;
+  align-content: center;
   flex-direction: column;
 }
 
 
 .header {
-  width: 100px;
+  width: 100%;
   height: 69px;
   background-color: green; */For Debugging*/
-  display: inline-flex;
-  justify-content: flex-end;
+  display: flex;
+  wrap: nowrap;
+  justify-content: space-between;
   align-content: center;
   border-bottom: 1px solid seashell;
-  text-decoration: underline;
+
+
 }
 
 
+.header span {
+  display: inline-flex;
+  color: Azure; */For Debugging*/
+  text-decoration: underline;
+}
 /* End of Division */
 .mission {
   width: 1200px;
