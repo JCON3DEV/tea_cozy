@@ -1,0 +1,76 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.header {
+  width: 100px;
+  height: 69px;
+  background-color: green; */For Debugging*/
+  display: inline-flex;
+  justify-content: flex-end;
+  align-content: center;
+  border-bottom: 1px solid seashell;
+  text-decoration: underline;
+}
+
+
+/* End of Division */
+.mission {
+  width: 1200px;
+  height: 700px;
+  background-color: beige;*/For Debugging*/
+}
+
+
+/* End of Division */
+.tea {
+  height:600px;
+  width: 1000px;
+  background-color: yellow;*/For Debugging*/
+}
+
+
+/* End of Division */
+.locations {
+  height:500px;
+  width:1200px;
+  background-color: salmon;*/For Debugging*/
+}
+
+
+/* End of Division */
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: red;*/For Debugging*/
+
+}
+
+
+/* End of Division */
+.copyright {
+  display:flex;
+  justify-content: flex-start;
+  top:20px;
+  background-color: inherit;
+}
+
+
+/* End of Division */
+h1 {
+  color: azure; */For Debugging*/
+}
