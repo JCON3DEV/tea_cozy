@@ -165,16 +165,68 @@ div {
 
 
 /* End of Tea */
-.locations {
+.locations_container {
   display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
-
   height:500px;
   width:1200px;
-  background-color: salmon;*/For Debugging*/
+  background-image: url("./images/img-locations-background.jpg");
 }
 
 
+.locations {
+  display: flex;
+  width:100%;
+  align-self: center;
+  justify-content: center;
+
+}
+
+.shops {
+  display: flex;
+  flex-flow: row no wrap;
+  width: 100%;
+
+}
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 300px;
+  width: 320px;
+  background-color: black;
+  margin: 0 40px 45px 40px;
+
+}
+
+.bayside {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 300px;
+  width: 320px;
+  background-color: black;
+  margin: 0 40px 45px 40px;
+
+}
+
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 300px;
+  width: 320px;
+  background-color: black;
+  margin: 0 40px 45px 40px;
+
+}
 /* End of Division */
 .footer {
   height: 200px;
