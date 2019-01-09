@@ -127,30 +127,39 @@ div {
   width: 100%;
   background-color: black;
 }
+
 .tea_images {
   display:flex;
   flex-flow: row wrap;
-
-  align-content: center;
-  margin: 0 auto;
-  height: 200px;
-  width: 240px;
-  flex-basis: 240px; */For Debugging*/
-  flex-shrink: 1; */For Debugging*/
-
-
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-shrink:1;
+  min-width: 302px;
+  justify-content: center;
 }
 
 
-.berry,
-.rum,
-.donut,
-.myrtle,
+.berry {
+  width:300px;
+  height:200px;
+
+}
+.rum {
+  width:300px;
+  height:200px;
+
+}
+.donut {
+  width:300px;
+  height:200px;
+
+}
+.myrtle {
+  width:300px;
+  height:200px;
+
+}
 .bedford {
-  width:240px;
-  height:240px;
+  width:300px;
+  height:200px;
 
 }
 
