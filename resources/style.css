@@ -187,7 +187,7 @@ body {
 
 .shops {
   display: flex;
-  flex-flow: row no wrap;
+  flex-flow: row nowrap;
   width: 100%;
   opacity: 1;
 }
