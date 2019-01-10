@@ -10,13 +10,11 @@
 body {
   display: flex;
   flex-flow: column nowrap;
-
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-
   overflow: scroll;
 
 }
@@ -24,18 +22,17 @@ body {
 
 .header {
   display: flex;
-
   justify-content: space-between;
   position:fixed;
   z-index:1;
   wrap: nowrap;
-
   flex-grow: 1;
   padding: 9px 10px 9px 10px;
   width: 100%;
   height: 69px;
   background-color: inherit;
   border-bottom: 1px solid seashell;
+  opacity: 0.9;
 }
 
 
@@ -48,21 +45,20 @@ body {
   justify-content: space-between;
   text-decoration: underline;
   padding-top: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
 /* End of .header */
 
 .mission {
   display: flex;
-
   flex-flow: column nowrap;
   justify-content: center;
   align-content: center;
   margin: 69px auto 0;
   background-image: url("./images/img-mission-background.jpg");
   background-size: cover;
-
-  opacity: 0.5;
+  opacity: 0.9;
   width: 1200px;
   height: 700px;
   }
@@ -73,7 +69,6 @@ body {
   background-color: black;
   height: auto;
   width: 100%;
-
   margin: 0 auto;
 }
 .statement h4 {
@@ -95,21 +90,20 @@ body {
   padding-bottom: 7px;
 }
 /* End of Mission */
+
 .tea {
   display:flex;
-
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
   flex-shrink: 1;
-  margin: 0 auto;
+  margin: 50px auto;
   height:600px;
   width: 1000px;
   min-height: 0;
   min-width: 0;
   overflow: hidden;
   background-color: black;
-
 }
 
 .tea_selection {
@@ -130,31 +124,44 @@ body {
   justify-content: center;
 }
 
-
 .berry {
   width:300px;
   height:200px;
-
 }
+.image_one h4 {
+  padding-left: 50px;
+}
+
 .rum {
   width:300px;
   height:200px;
-
 }
+.image_2 h4 {
+  padding-left: 60px;
+}
+
 .donut {
   width:300px;
   height:200px;
-
 }
+.image_3 h4 {
+  padding-left: 60px;
+}
+
 .myrtle {
   width:300px;
   height:200px;
-
 }
+.image_4 h4 {
+  padding-left: 60px;
+}
+
 .bedford {
   width:300px;
   height:200px;
-
+}
+.image_5 h4 {
+  padding-left: 40px;
 }
 
 
@@ -176,52 +183,52 @@ body {
   width:100%;
   align-self: center;
   justify-content: center;
-
 }
 
 .shops {
   display: flex;
   flex-flow: row no wrap;
   width: 100%;
-
+  opacity: 1;
 }
 
 .downtown {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content:space-around;
   align-items: center;
   height: 300px;
   width: 320px;
   background-color: black;
   margin: 0 40px 45px 40px;
-
+  opacity: 1;
 }
 
 .bayside {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content:space-around;
   align-items: center;
   height: 300px;
   width: 320px;
   background-color: black;
   margin: 0 40px 45px 40px;
-
+  opacity: 1;
 }
 
 .oakdale {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content:space-around;
   align-items: center;
   height: 300px;
   width: 320px;
   background-color: black;
   margin: 0 40px 45px 40px;
-
+  opacity: 1;
 }
 /* End of Locations */
+
 .footer {
   display: flex;
   flex-direction: column;
